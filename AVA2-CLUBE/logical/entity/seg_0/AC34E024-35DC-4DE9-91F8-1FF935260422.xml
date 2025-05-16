@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC34E024-35DC-4DE9-91F8-1FF935260422" name="telefone">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:34:52 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="943895B5-9E92-841A-E3B7-3A1056EA6699">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:35:10 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="B7F21B9E-37D9-0FF5-9806-3CF3BF8EAA10">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:36:44 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepentende" id="7F7D2CA7-C6E7-A71F-C354-8B3CC311C5DF">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:44:45 UTC</createdTime>
+<generatorID>D749D98B-5AF2-EA2F-C2FC-AA6FC2DA2382</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<referedAttribute>E0A93099-9484-8023-E0C1-CDA44A6773ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="53BDCB1E-0199-BF34-F462-8A338E3DE5FB">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:45:01 UTC</createdTime>
+<generatorID>AC8C314D-EDB4-A090-B5FC-2833EF6AE0A4</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<referedAttribute>4917C6FE-F58A-A81F-1F16-D0BAE3A696CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEFB3A8D-D7A6-4171-7EBD-30D29DEAB5CC" name="telefoneDependente PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:35:25 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>943895B5-9E92-841A-E3B7-3A1056EA6699</attributeRef>
+<attributeRef>7F7D2CA7-C6E7-A71F-C354-8B3CC311C5DF</attributeRef>
+<attributeRef>53BDCB1E-0199-BF34-F462-8A338E3DE5FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

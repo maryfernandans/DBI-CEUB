@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EC36236-7CAE-1A36-949C-73F1FD61DFB9" name="pedidos">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:45:13 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numeroPedido" id="3A5A31A2-E369-CD9C-6419-14094E53F166">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:45:31 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPedido" id="08C33173-1181-25C6-8179-556541B3379B">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:46:59 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaPedido" id="99E85179-C49B-FE58-0252-1F0EF91A03A0">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:47:33 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="59AD032C-5C61-BBCB-94F9-96700E8728A3">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:48:19 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="00C9530D-3C6E-1C27-9E94-9EBC57E39D07">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:48:55 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor1" id="95DD49E5-68AB-EDBF-A6B2-89F9EB7630F2">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:21 UTC</createdTime>
+<generatorID>F0AA3B52-E3E1-FBC9-0524-C7298C5391DE</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<referedAttribute>0E8E22A7-E6A9-9046-CF37-AF34E17A29B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="3DA7505F-222F-D5B2-6F9A-BFDCC1FF30C1">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:30 UTC</createdTime>
+<generatorID>9E4D3DAB-7950-2BC6-380C-96D3A138A46C</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<referedAttribute>A01DE610-3344-67BA-6108-8B436CC9FA12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="FF2748AE-F553-E8AC-4343-13850F4BE7C3">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:38 UTC</createdTime>
+<generatorID>ADEF1DA6-09C1-2AE8-9B05-09CD563531C0</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<referedAttribute>E25812D3-201F-0956-2E2D-EA3BF236B625</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido1" id="6A9ED504-A020-306A-9403-88B51D85C874">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:46 UTC</createdTime>
+<generatorID>F8FF96BB-4AB0-FB56-7992-B6AEB2AB1744</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<referedAttribute>450B9EEA-7888-C978-BED9-F41C2ACD53E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="845B160B-2BF2-243D-9FE8-7274547B481D" name="pedidos PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:46:52 UTC</createdTime>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<engineerTo>
+<item key="3D58DF62-279D-8F91-A8BA-61C3D9C682C5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A5A31A2-E369-CD9C-6419-14094E53F166</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

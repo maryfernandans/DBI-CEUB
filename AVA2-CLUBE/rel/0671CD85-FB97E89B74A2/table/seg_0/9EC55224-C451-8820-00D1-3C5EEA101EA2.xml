@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EC55224-C451-8820-00D1-3C5EEA101EA2" name="endereco">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>76106757-4C25-4B18-2423-F1F6A12C9375</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfTitular" id="77144424-FB20-0269-5194-67F40083BC20">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>E083971E-0746-7D4F-271F-07B0851D2BDD</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoTitular" id="CC1336D2-3A4A-B5F1-6B94-F28D1606011A">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>26A90F92-3F47-BFE8-EB69-9F4540FC5C93</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoTitular" id="60DBE22F-6626-FFE7-0D13-F36E88A238AD">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>89542757-98F9-F457-9C3F-6BA365381D4E</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoTitular" id="7E9A5F56-3DA1-E384-C33E-8E0C4A2CD5C1">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>E281B1D9-9D37-76B0-29BA-20641CC3ACBB</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroEnderecoTitular" id="BDA0237E-6AD3-ED4D-2687-6F116C30636C">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>3E878BC7-6EF6-E398-650D-8AFF74EC475E</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="associados_cpfDepentende" id="FF61CF1E-5E07-E6EF-F8A2-2BE6E0BD10EA">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>59ED8167-0F81-230A-1279-D88A16089B1A</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80C46F81-21FE-1C64-C52C-C8394A50351E" referredColumn="2EAC1286-4235-BF42-6F94-273BF660ACBA"/>
+</associations>
+</Column>
+<Column name="dependente_cpfDependente" id="09C4A809-EFB8-7687-7E9F-24DA58182CA6">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>290AD9DD-A3B7-FA90-BE14-8A6575C3065B</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3D00156-7634-C229-B4E7-74F3F4DA3F29" referredColumn="5E4E739A-633A-C28F-A4BB-8E8455E9910F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="080E2C46-8DFE-8AA2-A0E1-4E6CD1F1FF0F" name="endereco_PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>2C748539-7290-B3B8-E0B5-6A1018E8D908</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77144424-FB20-0269-5194-67F40083BC20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="177551CD-0A58-01E9-D9A6-982C1598EFC6" name="endereco__IDX">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FEAD03A6-7A3E-5647-EB02-20ACA3E5F6F0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF61CF1E-5E07-E6EF-F8A2-2BE6E0BD10EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C0DE5F1-6178-3F7B-2002-8974939DA3F2" name="endereco__IDXv1">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AA15185F-59C7-312F-8852-67B38B4400FE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="09C4A809-EFB8-7687-7E9F-24DA58182CA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B451182-184C-D470-E9BD-170953394B22" name="endereco_associados_FK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>FEAD03A6-7A3E-5647-EB02-20ACA3E5F6F0</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF61CF1E-5E07-E6EF-F8A2-2BE6E0BD10EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5BF3EA-7685-C923-1232-9F7E30C746AE" name="endereco_dependente_FK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>AA15185F-59C7-312F-8852-67B38B4400FE</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C4A809-EFB8-7687-7E9F-24DA58182CA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

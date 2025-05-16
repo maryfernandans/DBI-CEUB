@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DD79031-FEE0-50D0-F0B4-03551AE68747" name="telefone">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>AC34E024-35DC-4DE9-91F8-1FF935260422</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="A3F1A8EF-FFF4-2648-D7A3-E5D9371B5AEA">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>943895B5-9E92-841A-E3B7-3A1056EA6699</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="2973A87B-165F-31C4-0F83-80803024FCA8">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>B7F21B9E-37D9-0FF5-9806-3CF3BF8EAA10</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="associados_cpfDepentende" id="D9FE9B7C-A2FD-F574-D441-1AA5D92A1199">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>7F7D2CA7-C6E7-A71F-C354-8B3CC311C5DF</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FB727AA-4854-F5BA-9A3F-A6E61235D620" referredColumn="2EAC1286-4235-BF42-6F94-273BF660ACBA"/>
+</associations>
+</Column>
+<Column name="dependente_cpfDependente" id="EC3CD87C-CE47-E5FB-21C6-E2A92E218FE5">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>53BDCB1E-0199-BF34-F462-8A338E3DE5FB</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77E537B2-6242-7F40-9B90-CA51DBBAA13D" referredColumn="5E4E739A-633A-C28F-A4BB-8E8455E9910F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A313547-5515-36CC-9160-777E62052A77" name="telefone_PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>CEFB3A8D-D7A6-4171-7EBD-30D29DEAB5CC</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F1A8EF-FFF4-2648-D7A3-E5D9371B5AEA"/>
+<colUsage columnID="D9FE9B7C-A2FD-F574-D441-1AA5D92A1199"/>
+<colUsage columnID="EC3CD87C-CE47-E5FB-21C6-E2A92E218FE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E18BE89-B97C-64B0-15A4-587FCD5F270B" name="telefone_associados_FK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>D749D98B-5AF2-EA2F-C2FC-AA6FC2DA2382</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9FE9B7C-A2FD-F574-D441-1AA5D92A1199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4865276F-BDA7-5699-0F48-0A3BA46CD6D3" name="telefone_dependente_FK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>AC8C314D-EDB4-A090-B5FC-2833EF6AE0A4</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC3CD87C-CE47-E5FB-21C6-E2A92E218FE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

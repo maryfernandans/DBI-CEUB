@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4660071A-C411-EA95-1710-2471DBF56786" name="enderecoCliente">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>CDF8E0D7-F500-9687-CA6C-A23720C67576</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="CDF1389A-473B-DFCE-35C5-25D422DB836B">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>E25812D3-201F-0956-2E2D-EA3BF236B625</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoCliente" id="53C31987-E642-EBDB-DCE1-F8BE111467A9">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>C80970EF-191A-98F2-8FD1-3526FA74AD6F</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroeEnderecoCliente" id="1700233F-E242-D69E-2EAB-3D97C0A59A84">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>DC011B70-C30A-C448-DB0D-350390A9A510</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="1DCAB656-9F9E-617E-2C5D-1657A6773367">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>19C3ABE3-E375-DC73-DD71-DD5730F49F3C</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="41951E07-8A5E-9226-BD39-71CA5D405272">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>1FD5301E-6D0C-D0B5-0EBE-92BFBC2EC014</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="CBAEC50C-57D1-E373-263A-794F1CEF9969">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>54606440-A15A-C6BE-8DFF-87A77A11F818</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="0E9726D2-EEC6-6624-7071-1E17F0DAC912">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>939413C8-3FE3-AF6C-647C-CCA6315DC6A4</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8889EB85-181E-2A5C-1C6B-2EF2B773D8F7" name="enderecoCliente_PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>55CC8FB2-B94E-E23B-8C93-2EDF9803F96B</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDF1389A-473B-DFCE-35C5-25D422DB836B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

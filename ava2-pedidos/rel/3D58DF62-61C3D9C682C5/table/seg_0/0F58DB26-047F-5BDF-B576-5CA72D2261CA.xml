@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F58DB26-047F-5BDF-B576-5CA72D2261CA" name="itensPedidos">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>94E7611D-A5AC-4352-2D72-0DB7C95A31C1</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="EAA36A4E-6241-B385-30DF-4CBA48A2BF49">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>450B9EEA-7888-C978-BED9-F41C2ACD53E9</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="065311A3-8608-915B-238F-E3B9F7253E6D">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>39AE2363-5F46-0216-6947-15F63CD34531</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioPedido" id="23DA4AC9-11FC-B71A-2883-1DC052BF416E">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>4CCBE563-0705-BE46-F8F9-ED9B626891A2</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="FDB181FA-C900-6718-BDCD-9E7B24451632">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>D5C322B9-8C55-9E93-8712-3A1DBE069EF2</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoProduto" id="95577A36-8C9A-807B-FE07-FBED1D12B95F">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>587E30E7-5AF0-4CCA-895F-67865325FE29</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedidosNumeroPedido" id="EA999E59-B740-8180-C71E-96115B13D1AB">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>D2C460D8-A0FB-A077-74D1-A8F379FDAEB7</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F244406-313B-5440-B039-B5CB689C56CF" name="itensPedidos_PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 22:51:56 UTC</createdTime>
+<generatorID>4EC02CCB-F22F-B9E9-9DDD-E20636D149B2</generatorID>
+<ownerDesignName>ava2-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAA36A4E-6241-B385-30DF-4CBA48A2BF49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

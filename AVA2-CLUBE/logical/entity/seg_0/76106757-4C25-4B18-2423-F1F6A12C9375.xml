@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76106757-4C25-4B18-2423-F1F6A12C9375" name="endereco">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:43:51 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="E083971E-0746-7D4F-271F-07B0851D2BDD">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:44:07 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoTitular" id="26A90F92-3F47-BFE8-EB69-9F4540FC5C93">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:46:03 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoTitular" id="89542757-98F9-F457-9C3F-6BA365381D4E">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:47:16 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoTitular" id="E281B1D9-9D37-76B0-29BA-20641CC3ACBB">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:48:50 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoTitular" id="3E878BC7-6EF6-E398-650D-8AFF74EC475E">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:50:07 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepentende" id="59ED8167-0F81-230A-1279-D88A16089B1A">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:44:23 UTC</createdTime>
+<generatorID>FEAD03A6-7A3E-5647-EB02-20ACA3E5F6F0</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<referedAttribute>E0A93099-9484-8023-E0C1-CDA44A6773ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="290AD9DD-A3B7-FA90-BE14-8A6575C3065B">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:44:29 UTC</createdTime>
+<generatorID>AA15185F-59C7-312F-8852-67B38B4400FE</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<referedAttribute>4917C6FE-F58A-A81F-1F16-D0BAE3A696CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C748539-7290-B3B8-E0B5-6A1018E8D908" name="endereco PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-15 23:44:10 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E083971E-0746-7D4F-271F-07B0851D2BDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

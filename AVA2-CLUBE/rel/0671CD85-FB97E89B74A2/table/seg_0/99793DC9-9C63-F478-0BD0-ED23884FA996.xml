@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99793DC9-9C63-F478-0BD0-ED23884FA996" name="dependente">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>5F6DBBF7-5D14-CA59-8D2D-75780EEBFFB9</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfDependente" id="5E4E739A-633A-C28F-A4BB-8E8455E9910F">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>4917C6FE-F58A-A81F-1F16-D0BAE3A696CA</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeDependente" id="AD2057F5-EE1A-70BA-260E-3157720B3AEA">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>B205EE87-DD60-4842-99DE-72651CF7C80E</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grauParentesco" id="A903460B-9E97-2EAB-B26A-C9FE0DBF8CAB">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>00D9BADB-EB4A-C60C-08B0-7F4265EE15E8</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneDependente" id="4DEF2665-89EC-EA2B-FF3C-C2B9CFF97875">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>9952197E-D199-425D-B3F5-2BF448A76C8F</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoDependente" id="B7DA1D26-CB06-1358-BB7F-9785D5EDDEC4">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>D322B11D-D906-514F-7C90-D250FEBB0FAC</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoDependente" id="D5548AE5-ED98-227C-C212-651AAE58E7D0">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>3755F6B2-1D64-D443-92B8-00CEF3BD06DB</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94000F57-9A99-5E8E-6285-9D2E9F5BE73C" name="dependente_PK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>A5A06BD2-055E-C653-6B63-72F8F4CFA1E9</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E4E739A-633A-C28F-A4BB-8E8455E9910F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

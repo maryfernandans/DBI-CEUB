@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C3D00156-7634-C229-B4E7-74F3F4DA3F29" containerWithKeyObject="9EC55224-C451-8820-00D1-3C5EEA101EA2" localFKIndex="6C5BF3EA-7685-C923-1232-9F7E30C746AE" name="endereco_dependente_FK">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:50:36 UTC</createdTime>
+<generatorID>AA15185F-59C7-312F-8852-67B38B4400FE</generatorID>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<referredTableLongName>dependente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99793DC9-9C63-F478-0BD0-ED23884FA996</referredTableID>
+<keyObject>94000F57-9A99-5E8E-6285-9D2E9F5BE73C</keyObject>
+<referredKeyID>94000F57-9A99-5E8E-6285-9D2E9F5BE73C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfDependente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

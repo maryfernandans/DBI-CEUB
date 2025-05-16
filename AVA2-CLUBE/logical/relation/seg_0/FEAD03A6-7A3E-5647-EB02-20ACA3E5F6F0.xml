@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="FEAD03A6-7A3E-5647-EB02-20ACA3E5F6F0">
+<createdBy>maryfernanda02</createdBy>
+<createdTime>2025-05-16 00:44:23 UTC</createdTime>
+<ownerDesignName>AVA2-CLUBE</ownerDesignName>
+<engineerTo>
+<item key="0671CD85-24FD-C05C-8070-FB97E89B74A2" value="true"/>
+</engineerTo>
+<sourcePk>C0C49F4D-44E8-8A36-9980-F956F1983CAE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DF8AB2B-7E92-33FC-7015-3EE49E4D91B4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>76106757-4C25-4B18-2423-F1F6A12C9375</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
